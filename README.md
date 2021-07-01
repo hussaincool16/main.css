@@ -1,38 +1,24 @@
 # main.css
-/* main.css 
-  v 1.0 - 2012-05-20
-*/
 
-/* reset margins */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
-blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
-tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, section, summary, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body {
+  margin: 25px;
+  background-color: rgb(240,240,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
 }
 
-/* setup body */
-body, p {
-    line-height: 1;
-    font-family: Georgia, serif;
-    font-size: 16pt;
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
 }
 
-/* reasonable starting margins */
-p, h1, h2, h3, h4, h5, h6, ol, ul, li { margin: 12pt; }
-li { margin-left: 2em; }
+/* Applies to all elements with <... class="someclass"> specified. */
+.someclass { color: red; }
 
-/* setup headings */
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1;
-    font-family: Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-}
 
 h1 { font-size: 200%; }
 h2 { font-size: 180%; }
@@ -41,6 +27,6 @@ h4 { font-size: 140%; }
 h5 { font-size: 120%; }
 h6 { font-size: 100%; }
 
-/* setup pre */
-pre { font-family: consolas, monospace; }
+
+
 
